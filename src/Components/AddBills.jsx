@@ -30,9 +30,9 @@ const AddBills = (props) => {
                                 patternDeadline: '^[1-9]+',
                 }
 
-           if(billName.match(validators.patternBillName) === null){ errorsArray.push('Invalid name'); }
-                if(value.match(validators.patternValue) === null){ errorsArray.push('Invalid value'); }
-                    if(deadline.match(validators.patternDeadline) === null){ errorsArray.push('Invalid Deadline'); }
+           if(billName.match(validators.patternBillName) === null){ errorsArray.push(' Invalid Name '); }
+                if(value.match(validators.patternValue) === null){ errorsArray.push(' Invalid Value '); }
+                    if(deadline.match(validators.patternDeadline) === null){ errorsArray.push(' Invalid Deadline '); }
                         if(errorsArray.length === 0)
                             return 0
         return errorsArray
