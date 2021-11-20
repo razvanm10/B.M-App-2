@@ -26,17 +26,17 @@ const Statistics = (props) => {
     return ( 
         <div>
                 <Typography style={styling}>The Statistic for: 
-                            <span style={{color: "#26c6da", fontSize: "19px"}}>{months[currMonth]}</span> </Typography>
+                            <span style={{color: "#26c6da", fontSize: "19px"}}> {months[currMonth]}</span> </Typography>
                     <Typography style={stylingSt}>Total Bills: 
-                                <span style={styleDg}>{countTotalBills}</span> </Typography>
+                                <span style={styleDg}> {countTotalBills}</span> </Typography>
                         <Typography style={stylingSt}>Total left to pay: 
-                                    <span style={styleDg}>{totalBillsValue} $</span> </Typography>
+                                    <span style={styleDg}> {totalBillsValue} $</span> </Typography>
                             <Typography style={stylingSt}>Number of Paid Bills: 
-                                        <span style={styleDg}>{countPaidBills}</span> </Typography>
+                                        <span style={styleDg}> {countPaidBills}</span> </Typography>
                                 <Typography style={stylingSt}>Out of date bills: 
-                                            <span style={styleDg}>{countExcedeedBills}</span> </Typography>
+                                            <span style={styleDg}> {countExcedeedBills}</span> </Typography>
                                     <Typography style={stylingSt}>Paid bills value: 
-                                                <span style={styleDg}>{totalPaidBills} $</span></Typography>
+                                                <span style={styleDg}> {totalPaidBills} $</span></Typography>
         </div>
      );
 }
