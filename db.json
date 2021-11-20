@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "f87620a8-f5f1-4909-aa0f-db4383556d6f",
+      "billName": "New",
+      "value": "29",
+      "deadline": "24",
+      "deadlineEx": false,
+      "description": ""
+    },
+    {
+      "id": "f0bcb032-d5cd-4da7-a428-00fa2dcce314",
+      "billName": "Another",
+      "value": "100",
+      "deadline": "24",
+      "deadlineEx": false,
+      "description": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": "817fc0c4-2278-44b1-99f9-67234900344d",
+      "billName": "Ele",
+      "value": "27",
+      "deadline": "27",
+      "description": ""
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
