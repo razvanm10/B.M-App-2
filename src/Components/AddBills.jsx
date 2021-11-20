@@ -16,7 +16,7 @@ const AddBills = (props) => {
             const currentDay = date.slice(0,2)
                 const month = (m) => {
                     const pattern = "[0][1,3,5,7,8]"
-                        if(m.match(pattern)!==null){
+                        if(m.match(pattern) !== null){
                             return 31
                         } else { if(m == "02" ){ return 28 } }
         return 30
