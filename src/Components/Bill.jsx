@@ -8,7 +8,7 @@ const Bill = (props) => {
     return (
       <li key={id} className = {deadlineEx === false ? 'bill': 'od-bill'}>
             <Typography className='element'>Bill: {billName}</Typography> 
-                <Typography className='element'>Price: {value}</Typography>  
+                <Typography className='element'>Value: {value} $</Typography>  
                     <Typography className='element'> Deadline: {deadline}</Typography>
                     {
                         showDetails === false ? 
