@@ -100,9 +100,9 @@ const AddBills = (props) => {
                         />
                         <Button 
                             variant="contained" 
-                            style={{
-                                margin: "5px"
-                            }}
+                                style={{
+                                    margin: "5px"
+                                 }}
                             onClick = {(e) => {
                                 if(billName !== '' && value !== '' && deadline !== ''){
                                         if(dataValidation(billName, value, deadline) === 0){
